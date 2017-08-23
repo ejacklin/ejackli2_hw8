@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JHU Annual Software Development Seminar</title>
+    <link rel="stylesheet" href="conferences.css">
+</head>
+
+
+<body>
+    <div class="heading">
+        <img src="university.logo_.small_.horizontal.white_.png" alt="JOHNS HOPKINS UNIVERSITY">
+    </div>
+    <h2 style="padding-left: 140px">JOHNS HOPKINS ANNUAL SOFTWARE DEVELOPMENT SEMINAR</h2>
+    <hr width="99%" color="#C4C2C2">
+    <br>
+
+    <div class="forms">
+        <form action="addToConferenceRegister" method ="post">
+            <fieldset>
+                <legend>Contact Information</legend>
+                <table>
+                    <tr>
+                        <td><label for="name">Name:</label></td>
+                        <td><input type="text" name="name" id="name"/></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">E-mail:</label></td>
+                        <td><input type="text" name="email" id="email"/></td>
+                    </tr>
+                </table>
+            </fieldset>
+
+
+
+        <br>
+
+
+            <fieldset>
+                <legend>Select Your Courses</legend>
+                <select name="classes" size="6" multiple>
+                    <option value="A4 - Web Services">A4 - Web Services</option>
+                    <option value="A1 - J2EE Design Patterns">A1 - J2EE Design Patterns</option>
+                    <option value="A3 - Service Oriented Architectures">A3 - Service Oriented Architectures</option>
+                    <option value="A4 - Enterprise Service Bus">A4 - Enterprise Service Bus</option>
+                    <option value="A6 - Secure Messaging">A6 - Secure Messaging</option>
+                    <option value="A5 - Web Services Security">A5 - Web Services Security</option>
+                </select>
+            </fieldset>
+
+
+
+        <br>
+
+
+            <fieldset>
+                <legend>Employment Status</legend>
+
+                <input type="radio" name="status" value="JHU Employee" checked/>JHU Employee
+                <input type="radio" name="status" value="JHU Student"/>JHU Student
+                <input type="radio" name="status" value="Speaker"/>Speaker
+                <input type="radio" name="status" value="Other"/>Other
+            </fieldset>
+
+
+
+        <br>
+
+
+            <fieldset>
+                <legend>Additional Fees and Charges</legend>
+                <input type="checkbox" name="hotel" value="hotel"/>Hotel Accommodation (Conference Guest Special Fee - Parking Included)</br>
+                <input type="checkbox" name="parking" value="parking" />Parking Permit
+            </fieldset>
+
+
+        <br>
+
+            <input class="button" type="submit" value="Compute Seminar Costs">
+        </form>
+
+    </div>
+</body>
+</html>
+

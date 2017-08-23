@@ -1,0 +1,89 @@
+body{
+    background-color: #FCFC99
+}
+
+label{
+    padding: 5px;
+}
+
+.error{
+    padding-left: 20px;
+    color: darkred;
+    font-weight: bold;
+}
+
+
+.forms{
+
+    width: 50%;
+    padding-left: 100px;
+
+
+}
+
+h2{
+    align-content: center;
+    horiz-align: center;
+    font-size: 18px;
+    padding: 20px;
+}
+
+legend{
+    display: block;
+    padding: 2px;
+    font-weight:bold;
+    text-align: left;
+}
+
+fieldset{
+    border-radius: 5px;
+}
+
+.button {
+    background-color:lightgrey;
+    color: black;
+    padding: 5px 15px;
+    text-align: center;
+    /*display: inline-block;*/
+    /*font-size: 14px;*/
+    border-radius: 5px;
+    border: 2px solid #1E386B;
+}
+
+.heading{
+    background-color:#1E386B;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img{
+    width: 783px;
+    height: 325px;
+
+}
+
+
+table.cTable {
+        border-bottom: 1px solid darkgray;
+
+        border-spacing: 0px;
+    }
+
+table.cTable td{
+    padding-left: 20px;
+}
+
+table.cTable th {
+    text-align: left;
+    border-bottom: 2px solid darkgray;
+}
+
+table.cTable tr td {
+    border-bottom: 1px solid darkgray;
+}
+
+table.ccTable {
+    /*border-bottom: 1px solid darkgray;*/
+    border-spacing: 0px;
+    padding-left: 20px;
+}
