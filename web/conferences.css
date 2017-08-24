@@ -87,3 +87,7 @@ table.ccTable {
     border-spacing: 0px;
     padding-left: 20px;
 }
+
+table.buttons{
+    padding-left: 20px;
+}

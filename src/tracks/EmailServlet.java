@@ -38,22 +38,22 @@ public class EmailServlet extends HttpServlet {
             String from = "ejackli2hw6@gmail.com";
             String subject = "Software Development Seminar Registration Confirmation";
             String body = "<html>"
-                    + "<head>"
-                    + "<h1 style=\"padding-left: 140px\">JOHNS HOPKINS ANNUAL SOFTWARE DEVELOPMENT SEMINAR</h1>"
-                    + "<hr width=\"99%\" color=\"#C4C2C2\"></hr><br>"
-                    + "</head>"
-                    + "<body>"
-                    + "<h3>" + attendee.getName() + "</h3><br>"
-                    + "You have been confirmed for the Johns Hopkins Annual Software Development Seminar.<br>"
-                    + "You are registered as a <b>" + attendee.getStatus() + ".</b><br><br>"
-                    + "If you need to update your registration information, please contact the conference committee at <br>"
-                    + "<a href=\"mailto:registration@seminar.jhu.edu\">registration@seminar.jhu.edu</a>" +
-                    "    or at (410) 410-4100.<br><br>"
-                    + "  <table class=\"cTable\" style=\"width:50%\">" +
-                    "        <tr>" +
-                    "            <th>Courses</th>" +
-                    "            <th>Cost</th>" +
-                    "        </tr>";
+                + "<head>"
+                + "<h1 style=\"padding-left: 140px\">JOHNS HOPKINS ANNUAL SOFTWARE DEVELOPMENT SEMINAR</h1>"
+                + "<hr width=\"99%\" color=\"#C4C2C2\"></hr><br>"
+                + "</head>"
+                + "<body>"
+                + "<h3>" + attendee.getName() + "</h3><br>"
+                + "You have been confirmed for the Johns Hopkins Annual Software Development Seminar.<br>"
+                + "You are registered as a <b>" + attendee.getStatus() + ".</b><br><br>"
+                + "If you need to update your registration information, please contact the conference committee at <br>"
+                + "<a href=\"mailto:registration@seminar.jhu.edu\">registration@seminar.jhu.edu</a>" +
+                "    or at (410) 410-4100.<br><br>"
+                + "  <table class=\"cTable\" style=\"width:50%\">" +
+                "        <tr>" +
+                "            <th>Courses</th>" +
+                "            <th>Cost</th>" +
+                "        </tr>";
             for (int i = 0; i < attendee.getClasses().size(); i++) {
                 body += "<tr valign=\"middle\"><td>" + classes.get(i) + "</td>"
                         + "<td>$" + attendee.getClassCost() + ".00</td></tr>";

@@ -33,11 +33,19 @@ registration information, please contact the conference committee at
 
 
     <form action="addToConferenceRegister" method ="post">
-        <table>
+        <table style="width:50%; padding-left: 140px">
             <tr>
-                <td> <input type="submit" value="Return" name="endSession"></td>
-                <%--<td> <input type="submit" value="Print Confirmation in PDF" name="printPDF"></td>--%>
-                <%--<td> <input type="submit" value="Print Confirmation in Excel" name="printExcel"></td>--%>
+                <form action="addToConferenceRegister" method ="post">
+                <td> <input type="submit" value="Done" name="endSession"></td>
+                </form>
+
+                <form action="addToConferenceRegister" method ="post">
+                <td> <input type="submit" value="Print Confirmation in PDF" name="printPDF"></td>
+                </form>
+
+                <form action="addToConferenceRegister" method ="post">
+                <td> <input type="submit" value="Print Confirmation in Excel" name="printExcel"></td>
+                </form>
             </tr>
         </table>
 
